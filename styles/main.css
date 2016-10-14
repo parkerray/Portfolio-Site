@@ -1,0 +1,67 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+
+head, body, h1, h2, h3, h4, p, ul, ol, li {
+    size: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'raleway', 'sans-serif';
+    line-height: 100%;
+}
+
+#header h1 {
+	font-family: 'open sans', 'sans-serif';
+    font-size: 120px;
+    padding-top: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+#header h2 {
+	text-align: center;
+    color: #25A9E0;
+    padding-top: 75px;
+    font-size: 30px;
+}
+#nav {
+    background-color: #092A38;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+}
+#nav ul {
+    text-align: center;
+    padding-top: 10px;
+}
+#nav ul li {
+	display: inline;
+    margin-right: 10px;
+}
+#nav ul li:last-child {
+    margin-right: 0;
+}
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'raleway', 'sans-serif';
+}
+#nav ul li a:hover {
+    color: #25A9E0;
+}
+#header {
+    background-color: #092A38;
+    height: 100vh;
+}
+#about {
+    background-color: #263135;
+    height: 100vh;
+    color: white;
+    padding-top: 60px;
+}
+h3 {
+    font-family: 'open-sans', 'sans-serif';
+    font-size: 50px;
+    text-align: center;
+}
